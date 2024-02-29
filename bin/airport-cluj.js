@@ -10,8 +10,12 @@ new Tilda(`${__dirname}/../package.json`, {
         {
             name: "type"
           , opts: ["t", "type"]
-          , desc: "The type of the flight: arrivals | departure"
+          , desc: "The type of the flight: arrivals | departures"
         }
+    ],
+    examples: [
+        "airport-cluj --type arrivals",
+        "airport-cluj --type departures"
     ]
 }).main(async action => {
     if ([ "arrivals", "departures" ].indexOf(action.options.type.value) === -1) {
