@@ -1,0 +1,50 @@
+{
+  "name": "airport-cluj",
+  "description": "Live information about the departures and arrivals at the International Airpot Avram Iancu Cluj.",
+  "keywords": [
+    "airport",
+    "cluj",
+    "live",
+    "information",
+    "about",
+    "the",
+    "departures",
+    "and",
+    "arrivals",
+    "at",
+    "international",
+    "airpot",
+    "avram",
+    "iancu"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "homepage": "https://github.com/IonicaBizau/airport-cluj#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/airport-cluj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/airport-cluj/issues"
+  }
+}
