@@ -72,9 +72,13 @@ Live information about the departures and arrivals at the International Airpot
 Avram Iancu Cluj.
 
 Options:
-  -t, --type <type>  The type of the flight: arrivals | departure
+  -t, --type <type>  The type of the flight: arrivals | departures
   -h, --help         Displays this help.
   -v, --version      Displays version information.
+
+Examples:
+  $ airport-cluj --type arrivals
+  $ airport-cluj --type departures
 
 Documentation can be found at https://github.com/IonicaBizau/airport-cluj#readme.
 ```
