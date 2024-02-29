@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "airport-cluj": "bin/airport-cluj.js"
+  },
   "name": "airport-cluj",
   "description": "Live information about the departures and arrivals at the International Airpot Avram Iancu Cluj.",
   "keywords": [
@@ -46,5 +49,9 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/airport-cluj/issues"
+  },
+  "dependencies": {
+    "scrape-it": "^6.1.0",
+    "tilda": "^4.4.16"
   }
 }
