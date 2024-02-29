@@ -22,5 +22,5 @@ new Tilda(`${__dirname}/../package.json`, {
         console.log("Invalid type. Please use one of the following: arrivals, departures.");
         return;
     }
-    console.log(await airportCluj[action.options.type.value](action.options.type));
+    console.log(JSON.stringify(await airportCluj[action.options.type.value](action.options.type)))
 });
